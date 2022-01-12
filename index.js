@@ -1,5 +1,4 @@
-function writeCards(arr,event)
-{
+function writeCards(arr,event){
     const newArr = [];
     for(let i = 0;i<arr.length;i++)
     {
@@ -8,12 +7,10 @@ function writeCards(arr,event)
     }
     return newArr;
 }
-function countDown(num)
-{
+function countDown(num){
     while(num>=0)
     {
         console.log(num);
         num--;
     }
-
 }
